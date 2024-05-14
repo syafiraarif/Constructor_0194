@@ -41,7 +41,7 @@ int main()
 {
 	Mahasiswa mhs1("Sri Ddi");
 	Mahasiswa mhs2("Budi Jatmiko");
-	Mahasiswa::setNIM(9);
+	Mahasiswa::setNIM(9);				//mengaksses  nim melalui static member function "setNIM"
 	Mahasiswa mhs3("Andi Janu");
 	Mahasiswa mhs4("Joko Wahono");
 
@@ -50,7 +50,7 @@ int main()
 	mhs3.printAll();
 	mhs4.printAll();
 
-
+	cout << "akses dari luar project = " << Mahasiswa::getNim() << endl;				//mengakses nim
 	system("pause");
 
 	return 0;
