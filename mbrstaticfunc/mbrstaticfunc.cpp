@@ -39,7 +39,21 @@ void Mahasiswa::printAll()
 
 int main()
 {
-   
+	Mahasiswa mhs1("Sri Ddi");
+	Mahasiswa mhs2("Budi Jatmiko");
+	Mahasiswa::setNIM(9);
+	Mahasiswa mhs3("Andi Janu");
+	Mahasiswa mhs4("Joko Wahono");
+
+	mhs1.printAll();
+	mhs2.printAll();
+	mhs3.printAll();
+	mhs4.printAll();
+
+
+	system("pause");
+
+	return 0;
 }
 
 
