@@ -46,6 +46,19 @@ void Mahasiswa::cetak()
 
 int main()
 {
+	Mahasiswa Syaf1;
+	Mahasiswa Syaf2(20);
+	Mahasiswa Syaf3("putri");
+	Mahasiswa Syaf4(30, "syafira");
+
+	Syaf1.cetak();
+	Syaf2.cetak();
+	Syaf3.cetak();
+	Syaf4.cetak();
+
+	system("pause");
+
+	return 0;
 
 }
 
