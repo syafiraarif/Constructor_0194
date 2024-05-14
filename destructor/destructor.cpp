@@ -41,8 +41,13 @@ void angka::isiData()
     }
     cout << endl;
 }
+
 int main()
 {
-    
-}
+    angka belajarcpp(3);                     //construktor dipanggil
+    angka* ptrBelajarcpp = new angka(5);     //construktor dipanggil
+    delete ptrBelajarcpp;                    //destructor dipanggil
+
+    return 0;
+}//desstructor dipanggil
 
